@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+
+
+
+  <div class="wrapper dark1">
+    <div class="top_background"></div>
+    <div class="main_container">
+      <div class="header split">
+        <div class="top">
+          <h1 class="top__title dark_white" >Social Media Dashboard</h1>
+          <p class="top__sub_title header-sub_text">Total Followers: 23,004</p>
+        </div>
+        <div class="theme split">
+          <p class="theme__text header-sub_text dark_white">Dark Mode</p>
+          <div class="toogle split" tabindex="0">
+            <div class="toogle__circle"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="followers grid">
+        <div class="card split card-followers">
+          <a href="#" class="card__profile split"><img src="images/icon-facebook.svg" alt="facebook"
+              class="card__social_icon"> <span class="card__username">@nathanf</span>
+          </a>
+          <p class="card__followers_number dark_white">1987</p>
+          <p class="card__followers_text">followers</p>
+          <div class="card__day split">
+            <img src="images/icon-up.svg" alt="" class="card__icon_up">
+            <p class="card__today">12 Today</p>
+          </div>
+        </div>
+        <div class="card split card-followers">
+          <a href="#" class="card__profile split"><img src="images/icon-twitter.svg" alt="facebook"
+              class="card__social_icon"> <span class="card__username">@nathanf</span>
+          </a>
+          <p class="card__followers_number dark_white">1044</p>
+          <p class="card__followers_text">followers</p>
+          <div class="card__day split">
+            <img src="images/icon-up.svg" alt="" class="card__icon_up">
+            <p class="card__today">99 Today</p>
+          </div>
+        </div>
+        <div class="card split card-followers">
+          <a href="#" class="card__profile split"><img src="images/icon-instagram.svg" alt="facebook"
+              class="card__social_icon"> <span class="card__username">@realnathanf</span>
+          </a>
+          <p class="card__followers_number dark_white">11K</p>
+          <p class="card__followers_text">followers</p>
+          <div class="card__day split">
+            <img src="images/icon-up.svg" alt="" class="card__icon_up">
+            <p class="card__today">1099 Today</p>
+          </div>
+        </div>
+        <div class="card split card-followers">
+          <a href="#" class="card__profile split"><img src="images/icon-youtube.svg" alt="facebook"
+              class="card__social_icon"> <span class="card__username">Nathan F</span>
+          </a>
+          <p class="card__followers_number dark_white">8239</p>
+          <p class="card__followers_text">subscribers</p>
+          <div class="card__day split">
+            <img src="images/icon-down.svg" alt="" class="card__icon_down">
+            <p class="card__today card__today-red">144 Today</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="overview">
+        <h2 class="overview__title dark_white">Overview - Today</h2>
+        <div class="overview__today grid">
+          <div class="card">
+            <div class="platform_info row split">
+              <p class="platform__text">Page Views</p>
+              <img src="images/icon-facebook.svg" alt="facebook" class="card__social_icon">
+            </div>
+            <div class="platform_numbers row split">
+              <p class="numbers dark_white">87</p>
+              <div class="card__day split">
+                <img src="images/icon-up.svg" alt="" class="card__icon_up">
+                <p class="card__today">3%</p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="platform_info row split">
+              <p class="platform__text">Likes</p>
+              <img src="images/icon-facebook.svg" alt="facebook" class="card__social_icon">
+            </div>
+            <div class="platform_numbers row split">
+              <p class="numbers dark_white">52</p>
+              <div class="card__day split">
+                <img src="images/icon-down.svg" alt="" class="card__icon_down">
+                <p class="card__today card__today-red">2%</p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="platform_info row split">
+              <p class="platform__text">Likes</p>
+              <img src="images/icon-instagram.svg" alt="instagram" class="card__social_icon">
+            </div>
+            <div class="platform_numbers row split">
+              <p class="numbers dark_white">5462</p>
+              <div class="card__day split">
+                <img src="images/icon-up.svg" alt="" class="card__icon_up">
+                <p class="card__today">2257%</p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="platform_info row split">
+              <p class="platform__text">Page Views</p>
+              <img src="images/icon-instagram.svg" alt="instagram" class="card__social_icon">
+            </div>
+            <div class="platform_numbers row split">
+              <p class="numbers dark_white">52K</p>
+              <div class="card__day split">
+                <img src="images/icon-up.svg" alt="" class="card__icon_up">
+                <p class="card__today">1375%</p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="platform_info row split">
+              <p class="platform__text">Retweets</p>
+              <img src="images/icon-twitter.svg" alt="twitter" class="card__social_icon">
+            </div>
+            <div class="platform_numbers row split">
+              <p class="numbers dark_white">117</p>
+              <div class="card__day split">
+                <img src="images/icon-up.svg" alt="" class="card__icon_up">
+                <p class="card__today">303%</p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="platform_info row split">
+              <p class="platform__text">Likes</p>
+              <img src="images/icon-twitter.svg" alt="twitter" class="card__social_icon">
+            </div>
+            <div class="platform_numbers row split">
+              <p class="numbers dark_white">507</p>
+              <div class="card__day split">
+                <img src="images/icon-up.svg" alt="" class="card__icon_up">
+                <p class="card__today">553%</p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="platform_info row split">
+              <p class="platform__text">Likes</p>
+              <img src="images/icon-youtube.svg" alt="your" class="card__social_icon">
+            </div>
+            <div class="platform_numbers row split">
+              <p class="numbers dark_white">107</p>
+              <div class="card__day split">
+                <img src="images/icon-up.svg" alt="" class="card__icon_up">
+                <p class="card__today card__today-red">19%</p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="platform_info row split">
+              <p class="platform__text">Total Views</p>
+              <img src="images/icon-youtube.svg" alt="your" class="card__social_icon">
+            </div>
+            <div class="platform_numbers row split">
+              <p class="numbers dark_white">1407</p>
+              <div class="card__day split">
+                <img src="images/icon-up.svg" alt="" class="card__icon_up">
+                <p class="card__today card__today-red">12%</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <script src="script.js"></script>
+
+
+  <!-- 
+  Overview - Today
+
+  Page Views
+  87
+  3%
+
+  Likes
+  52
+  2%
+
+  Likes
+  5462
+  2257%
+
+  Profile Views
+  52k
+  1375%
+
+  Retweets
+  117
+  303%
+
+  Likes
+  507
+  553%
+
+  Likes
+  107
+  19%
+
+  Total Views
+  1407
+  12%
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+
+</html>
